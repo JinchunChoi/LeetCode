@@ -1,6 +1,11 @@
 # https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/
 
 # Solution, Greedy
+# https://leetcode.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/discuss/585836/Python-Greedy
+# Building a precomputed list of fibonacci takes O(N). Having 50 fibonacci is going to be sufficiently larger than 
+# the limit of k ( 1 <= k <= 10^9). Then, greedily find the largest number which is smaller than k, and subtract 
+# the number from k until k becomes 0.
+
 class Solution:
     def findMinFibonacciNumbers(self, k: int) -> int:
         def fibo(num):
