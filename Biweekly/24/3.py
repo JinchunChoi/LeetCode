@@ -1,5 +1,8 @@
 # https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/
 
+# use recursive and sorting
+
+
 class Solution(object):
     def getHappyString(self, n, k):
         """
