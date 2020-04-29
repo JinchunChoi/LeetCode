@@ -1,8 +1,14 @@
 # LeetCode
 Journey for LeetCode 
 
-* Biweekly: Review of contest.
+* Review of the Contest.
+- Weekly Contest
+- Biweekly Contest
+
 * 30-day Challenge: Review for problem of daily challenge
-* Green Problems: Solved easily
-* Yellow Problems: Solved but takes time
-* Red Problems: Didn't solve
+- April
+
+* Problems
+- Green Problems: Solved easily
+- Yellow Problems: Solved but takes time, understand with discussion
+- Red Problems: Didn't solve, no idea how to solve
