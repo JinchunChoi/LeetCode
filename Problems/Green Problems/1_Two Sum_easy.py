@@ -14,3 +14,12 @@ class Solution(object):
                     return [i, j]
         
         
+        # Hashmap, T: O(n), S: O(n)
+        d = collections.defaultdict()
+        for i, n in enumerate(nums):
+            d[n] = i
+        
+        for i, n in enumerate(nums):
+            tmp = target - n
+            if tmp in d and d[tmp] != i:
+                return [i, d[tmp]]
