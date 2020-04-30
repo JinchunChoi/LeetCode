@@ -1,4 +1,4 @@
-# Up: 4550, Down: 207
+# up: 4550, down: 207
 
 class Solution(object):
     def isValid(self, s):
