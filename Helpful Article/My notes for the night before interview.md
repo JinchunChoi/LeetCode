@@ -55,3 +55,5 @@ Edge case big and small, randomized test case, thread safe?
 * There are just less than 10 common questions. Definitely prepare ahead of time.
 * Bring a watch yourself, you need to control the time.
 * Don't be a jerk.
+
+reference: https://leetcode.com/discuss/career/217868/My-notes-for-the-night-before-interview
