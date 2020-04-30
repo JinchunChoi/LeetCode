@@ -1,5 +1,9 @@
 # up: 251, down: 63
 
+# for loop from the last element
+# in-place exchange values
+# T: O(n), S: O(1)
+
 class Solution(object):
     def replaceElements(self, arr):
         """
