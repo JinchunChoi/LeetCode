@@ -23,3 +23,12 @@ class Solution(object):
             tmp = target - n
             if tmp in d and d[tmp] != i:
                 return [i, d[tmp]]
+
+            
+        # Hashmap, one-pass, T: O(n), S: O(n)
+        d = collections.defaultdict()
+        for i, n in enumerate(nums):
+            tmp = target - n
+            if tmp in d:
+                return [i, d[tmp]]
+            d[n] = i
