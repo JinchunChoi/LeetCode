@@ -30,28 +30,40 @@ class Solution(object):
         
         cur = head
         count = 1
+        
+        # for counting the number of nodes in linked list
         while cur.next:
             count += 1
             cur = cur.next
-            
+           
+        # number of shift, not rotate more
         shift = k % count
         
+        # no move, return head
         if k == 0 or shift == 0:
             return head
-        
+                
         fast = slow = head
         
+        # run fast pointer 
         for i in range(shift):
             fast = fast.next
         
+        # run both pointer until fast.next == None
         while fast.next:
             slow = slow.next
             fast = fast.next
         
+        # keep new start node
         tmp = slow.next
         
+        # cut link
         slow.next = None
+        
+        # connect to head
         fast.next = head
+        
+        # set a tmp as a head (new start node)
         head = tmp
         
         return head
