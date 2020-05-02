@@ -15,7 +15,7 @@ class Solution(object):
         """
         # Solution
         
-        # We need to keep prev and nextTmp for reverse linked list        
+        # We need to keep prev and nextTmp for reverse single linked list        
         prev = None
         curr = head
         nextTmp = None
